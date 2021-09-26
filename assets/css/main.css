@@ -1306,10 +1306,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		background-attachment: fixed;
+		background: rgb(226,170,153);
+		background: linear-gradient(90deg, rgba(226,170,153,1) 0%, rgba(238,175,73,1) 35%, rgba(245,71,98,1) 100%);
 		overflow-y: scroll;
 	}
 
