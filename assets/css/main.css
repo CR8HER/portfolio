@@ -1580,7 +1580,10 @@ input, select, textarea {
 			}
 
 /* Button */
-
+	.my-name{
+		font-family: 'Birthstone', cursive;
+		font-size: 4em;
+	}
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1592,7 +1595,8 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
+		background: rgb(226,170,153);
+		background: linear-gradient(90deg, rgba(226,170,153,1) 0%, rgba(238,175,73,1) 35%, rgba(245,71,98,1) 100%);
 		color: #ffffff;
 		border: 0;
 		cursor: pointer;
